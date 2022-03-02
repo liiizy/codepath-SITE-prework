@@ -39,7 +39,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![User Plays Correctly (Parts 1-3)](https://imgur.com/bQD5HCt)
+![User Plays Correctly (Part 1)](![ezgif com-gif-maker](https://user-images.githubusercontent.com/97565167/156295694-474ba3fa-bf5c-4dfd-80d8-1e34cf3afb25.gif)
+)
 ![User Plays Incorrectly (Parts 1-2)](https://imgur.com/a/baSLWWt)
 
 ## Reflection Questions
