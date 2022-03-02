@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Light and Sound Memory Game
+    </h1>
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing the buttons.<br>
+      You have 3 lives total and 5 seconds to answer each round. Good luck!<br>
+      <button id="startBtn" onclick="startGame()">Start</button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">End</button>
+      <button id="livesLeftBtn" >Lives: 3</button>
+      <button id="countdown">Timer: 5</button>
+      
+      <div id="gameButtonArea">
+        <audio id="audio1"><source src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/mixkit-fast-small-sweep-transition-166.wav?v=1646173996066"></audio>
+        <audio id="audio2"><source src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/mixkit-retro-game-notification-212.wav?v=1646176175807"></audio>
+        <audio id="audio3"><source src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/mixkit-wild-lion-animal-roar-6.wav?v=1646176616528"></audio>
+        <audio id="audio4"><source src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/mixkit-sweet-kitty-meow-93.wav?v=1646176605600"></audio>
+        <audio id="audio5"><source src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/mixkit-quick-win-video-game-notification-269.wav?v=1646176554973"></audio>
+        <audio id="audio6"><source src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/mixkit-arcade-game-jump-coin-216.wav?v=1646176540656"></audio>
+        <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone(1)" onclick="guess(1)"><img id="img1" src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/boba2.png?v=1646168087213" class="hidden"></button>
+        <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone(2)" onclick="guess(2)"><img id="img2" src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/chips.png?v=1646168246953" class="hidden"></button>
+        <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone(3)" onclick="guess(3)"><img id="img3" src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/baooo.png?v=1646168850690" class="hidden"></button>
+        <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone(4)" onclick="guess(4)"><img id="img4" src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/candy.png?v=1646168623648" class="hidden"></button>
+        <button id="button5" onmousedown="startTone(5)" onmouseup="stopTone(5)" onclick="guess(5)"><img id="img5" src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/pop.png?v=1646168707920" class="hidden"></button>
+        <button id="button6" onmousedown="startTone(6)" onmouseup="stopTone(6)" onclick="guess(6)"><img id="img6" src="https://cdn.glitch.global/11f4daea-dd06-4fe9-ac33-439b8ec356c3/water.png?v=1646168778753" class="hidden"></button>
+      </div>
+    </p>
+  </body>
+</html>
