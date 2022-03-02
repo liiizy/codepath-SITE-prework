@@ -91,7 +91,7 @@ itself, but these challenges were amongst the biggest challenges I faced while c
 
   - To improve this project, I would research ways to make the game look nicer. For example, I would change the text to look more appealing, perhaps add a video game-type font, if possible. I've already changed the font for the 
 heading and the body text, but I am still unsatisfied with how it looks. I also wanted to change the number of lives button to display 3 hearts and the timer to show an actual clock to make the game experience more enjoyable
-for the user. 
+for the user. I would also add sound effects whenever the user makes a mistake, whenever the user wins or loses, and a ticking sound for the last 3 seconds of the timer. 
 
 
 
