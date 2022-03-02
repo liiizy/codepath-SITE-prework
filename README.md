@@ -39,9 +39,16 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![User Plays Correctly (Part 1)](![ezgif com-gif-maker](https://user-images.githubusercontent.com/97565167/156295694-474ba3fa-bf5c-4dfd-80d8-1e34cf3afb25.gif)
+![](https://user-images.githubusercontent.com/97565167/156295694-474ba3fa-bf5c-4dfd-80d8-1e34cf3afb25.gif)
 )
-![User Plays Incorrectly (Parts 1-2)](https://imgur.com/a/baSLWWt)
+![](https://user-images.githubusercontent.com/97565167/156295844-5969ea3a-7b34-4ca9-a8e8-cedb621e8dad.gif)
+)
+![](https://user-images.githubusercontent.com/97565167/156295876-56cf774b-348a-4bbe-a623-380c1553156e.gif)
+()
+![](https://user-images.githubusercontent.com/97565167/156295903-d27a0696-1531-480e-a5a1-33a8fc9cb07c.gif)
+)
+![](https://user-images.githubusercontent.com/97565167/156295920-62aea3fd-d469-44d5-84a5-e6c6a60b556f.gif)
+)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
