@@ -75,7 +75,8 @@ Implementing the basic game design was not too difficult, however some of the ex
 after the user loses the game. I also had a challenge where the timer would stop at 1 and display the alert instead of stopping at 0, and then displaying the alert. This is because
 the alert function superceded the DOM and I mitigated this issue by writing a `setTimeout()` function to make sure the code written before this line could run. When using custom
 audio files, I also had an issue where I had to change the playback speed of the audio file. It was a bit of a challenge to calculate how much the playback speed should increase
-especially when the levels get faster, however, I eventually figured out the right values after some thinking and calculations. I had many other challenges, mostly about learning the language
+especially when the levels get faster, however, I eventually figured out the right values after some thinking and calculations. 
+Another audio bug I had was when my custom audio files would not make a second sound if I pressed a button twice consecutively in a short amount of time. This was because the 1-second long audio file had to finish playing before it could play again. To fix this, I called the `pause()`, `load()`, and `play` audio functions in functions `playTone(btn,len)` and `startTone(btn)` to make the current audio stop when the button is pressed again, reload the audio file, then play the audio so that the sound repeats. I had many other challenges, mostly about learning the language
 itself, but these challenges were amongst the biggest challenges I faced while creating this project. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
