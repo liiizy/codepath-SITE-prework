@@ -68,7 +68,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-I encountered many challenges while creating this submission. This is the first time I've ever used JavaScript, CSS, and HTML, so I had to learn everything from scratch. 
+  - I encountered many challenges while creating this submission. This is the first time I've ever used JavaScript, CSS, and HTML, so I had to learn everything from scratch. 
 Implementing the basic game design was not too difficult, however some of the extra features were a bit tricky. A bug that occurred was that the timer kept running even 
 after the user loses the game. I also had a challenge where the timer would stop at 1 and display the alert instead of stopping at 0, and then displaying the alert. This is because
 the alert function superceded the DOM and I mitigated this issue by writing a `setTimeout()` function to make sure the code written before this line could run. When using custom
@@ -83,7 +83,7 @@ itself, but these challenges were amongst the biggest challenges I faced while c
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-To improve this project, I would research ways to make the game look nicer. For example, I would change the text to look more appealing, perhaps add a video game-type font, if possible. I've already changed the font for the 
+  - To improve this project, I would research ways to make the game look nicer. For example, I would change the text to look more appealing, perhaps add a video game-type font, if possible. I've already changed the font for the 
 heading and the body text, but I am still unsatisfied with how it looks. I also wanted to change the number of lives button to display 3 hearts and the timer to show an actual clock to make the game experience more enjoyable
 for the user. 
 
