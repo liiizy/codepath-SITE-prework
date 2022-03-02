@@ -7,6 +7,7 @@ Submitted by: **Aliza Wong**
 Time spent: **12** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/gratis-mighty-planet
+
 Link to live site: https://gratis-mighty-planet.glitch.me/
 
 ## Required Functionality
