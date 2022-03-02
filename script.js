@@ -36,12 +36,16 @@ function stopGame() {
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");
   clearInterval(timer);
+  for(let i=1;i<=numButtons;i++) {
+    document.getElementById("audio"+i).playbackRate = 1;
+  }
 }
 
 function playTone(btn,len){ 
   document.getElementById("img"+btn).classList.remove("hidden");
   let audioTag = document.getElementById("audio"+btn);
   audioTag.playbackRate = 1000/len;
+  audioTag.load();
   audioTag.play();
   tonePlaying = true
   setTimeout(function(){
@@ -50,15 +54,24 @@ function playTone(btn,len){
   },len)
 }
 function startTone(btn){
-  if(!tonePlaying){
-    tonePlaying = true
-    document.getElementById("audio"+btn).play();
-    document.getElementById("img"+btn).classList.remove("hidden");
+  console.log("start"+btn);
+  let audio = document.getElementById("audio"+btn);
+  if(!audio.ended) {
+    audio.pause();
+    audio.load();
   }
+  
+  tonePlaying = true
+  //document.getElementById("audio"+btn).load();
+  document.getElementById("audio"+btn).play();
+  document.getElementById("img"+btn).classList.remove("hidden");
+  
 }
 function stopTone(btn){
+  console.log("stop"+btn);
   tonePlaying = false
   document.getElementById("img"+btn).classList.add("hidden");
+  //document.getElementById("audio"+btn).pause();
 }
 
 // Page Initialization
@@ -94,7 +107,7 @@ function playClueSequence(speed) {
     delay += cluePauseTime;
   }
   clueHoldTime = clueHoldTime - speed;
-  setTimeout(countdown, delay - (cluePauseTime + clueHoldTime));
+  setTimeout(countdown, delay - (cluePauseTime + clueHoldTime) +0);
   
 }
 
