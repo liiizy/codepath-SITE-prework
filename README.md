@@ -80,8 +80,12 @@ itself, but these challenges were amongst the biggest challenges I faced while c
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
   - Do functions often run simultaneously when working in web development? If so, why?
+  
       I've personally been working with sequential logic, so this was a whole new ballpark for me. Most of my bugs came from wondering why a line of code ran even though the lines before haven't
       run yet. 
+  - Is there a way to write tests to test our implementation rather than simply testing the code by playing the game?
+
+     I played the game many times to discover any bugs that needed to be fixed. Then, to fix those bugs, I utilized the console log to help me fix the bugs. I'm curious if there's another way to test the game by writing tests without playing it a bunch of times. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
