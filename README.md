@@ -4,9 +4,11 @@
 
 Submitted by: **Aliza Wong**
 
-Time spent: **12** hours spent in total
+Time spent: **15** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/gratis-mighty-planet
+
+Link to live site: https://gratis-mighty-planet.glitch.me/
 
 ## Required Functionality
 
@@ -39,10 +41,21 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+> User plays the game correctly and wins:
+
+![](https://user-images.githubusercontent.com/97565167/156295694-474ba3fa-bf5c-4dfd-80d8-1e34cf3afb25.gif)
+
+![](https://user-images.githubusercontent.com/97565167/156295844-5969ea3a-7b34-4ca9-a8e8-cedb621e8dad.gif)
+
+![](https://user-images.githubusercontent.com/97565167/156295876-56cf774b-348a-4bbe-a623-380c1553156e.gif)
+
+> User does not win, user runs out of time, user starts/stops game:
+
+
+![](https://user-images.githubusercontent.com/97565167/156295903-d27a0696-1531-480e-a5a1-33a8fc9cb07c.gif)
+
+![](https://user-images.githubusercontent.com/97565167/156295920-62aea3fd-d469-44d5-84a5-e6c6a60b556f.gif)
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -51,36 +64,46 @@ If you recorded multiple GIFs for all the implemented features, you can add them
   - https://www.w3schools.com/js/
   - https://www.w3schools.com/css/
   - https://support.glitch.com/t/how-do-i-upload-an-image-file/2312/17
-  - ttps://mixkit.co/free-sound-effects/
+  - https://mixkit.co/free-sound-effects/
   
   
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-I encountered many challenges while creating this submission. This is the first time I've ever used JavaScript, CSS, and HTML, so I had to learn everything from scratch. 
+  - I encountered many challenges while creating this submission. This is the first time I've ever used JavaScript, CSS, and HTML, so I had to learn everything from scratch. 
 Implementing the basic game design was not too difficult, however some of the extra features were a bit tricky. A bug that occurred was that the timer kept running even 
 after the user loses the game. I also had a challenge where the timer would stop at 1 and display the alert instead of stopping at 0, and then displaying the alert. This is because
 the alert function superceded the DOM and I mitigated this issue by writing a `setTimeout()` function to make sure the code written before this line could run. When using custom
 audio files, I also had an issue where I had to change the playback speed of the audio file. It was a bit of a challenge to calculate how much the playback speed should increase
-especially when the levels get faster, however, I eventually figured out the right values after some thinking and calculations. I had many other challenges, mostly about learning the language
+especially when the levels get faster, however, I eventually figured out the right values after some thinking and calculations. 
+Another audio bug I had was when my custom audio files would not make a second sound if I pressed a button twice consecutively in a short amount of time. This was because the 1-second long audio file had to finish playing before it could play again. To fix this, I called the `pause()`, `load()`, and `play` audio functions in functions `playTone(btn,len)` and `startTone(btn)` to make the current audio stop when the button is pressed again, reload the audio file, then play the audio so that the sound repeats. I had many other challenges, mostly about learning the language
 itself, but these challenges were amongst the biggest challenges I faced while creating this project. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
   - Do functions often run simultaneously when working in web development? If so, why?
+  
       I've personally been working with sequential logic, so this was a whole new ballpark for me. Most of my bugs came from wondering why a line of code ran even though the lines before haven't
       run yet. 
+  - Is there a way to write tests to test our implementation rather than simply testing the code by playing the game?
+
+     I played the game many times to discover any bugs that needed to be fixed. Then, to fix those bugs, I utilized the console log to help me fix the bugs. I'm curious if there's another way to test the game by writing tests without playing it a bunch of times. 
+  - What is the role of back-end?
+ 
+    I believe for this project, I was working with front-end and I made a fully functional game. Thus, what is the role of back-end and how do they contribute to web development?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-To improve this project, I would research ways to make the game look nicer. For example, I would change the text to look more appealing, perhaps add a video game-type font, if possible. I've already changed the font for the 
+  - To improve this project, I would research ways to make the game look nicer. For example, I would change the text to look more appealing, perhaps add a video game-type font, if possible. I've already changed the font for the 
 heading and the body text, but I am still unsatisfied with how it looks. I also wanted to change the number of lives button to display 3 hearts and the timer to show an actual clock to make the game experience more enjoyable
-for the user. 
+for the user. I would also add sound effects whenever the user makes a mistake, whenever the user wins or loses, and a ticking sound for the last 3 seconds of the timer. 
 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://drive.google.com/file/d/1YPS0BuKVSTYq0li8p0tquf-HnTb2GEhp/view?usp=sharing)
+
+- If the video doesn't seem to play in an incognito browser, click the eye button on the top right of the search bar and click "Site not working?". Then allow cookies and it should work!
 
 
 ## License

@@ -62,7 +62,6 @@ function startTone(btn){
   }
   
   tonePlaying = true
-  //document.getElementById("audio"+btn).load();
   document.getElementById("audio"+btn).play();
   document.getElementById("img"+btn).classList.remove("hidden");
   
@@ -71,11 +70,8 @@ function stopTone(btn){
   console.log("stop"+btn);
   tonePlaying = false
   document.getElementById("img"+btn).classList.add("hidden");
-  //document.getElementById("audio"+btn).pause();
 }
 
-// Page Initialization
-// Init Sound Synthesizer
 
 function lightButton(btn){
   document.getElementById("button"+btn).classList.add("lit");
