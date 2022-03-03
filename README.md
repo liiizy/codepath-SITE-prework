@@ -103,6 +103,8 @@ for the user. I would also add sound effects whenever the user makes a mistake, 
 
 [My 5-minute Interview Recording](https://drive.google.com/file/d/1YPS0BuKVSTYq0li8p0tquf-HnTb2GEhp/view?usp=sharing)
 
+- If the video doesn't seem to play in an incognito browser, click the eye button on the top right of the search bar and click "Site not working?". Then allow cookies and it should work!
+
 
 ## License
 
