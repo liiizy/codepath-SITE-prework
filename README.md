@@ -89,7 +89,7 @@ itself, but these challenges were amongst the biggest challenges I faced while c
      I played the game many times to discover any bugs that needed to be fixed. Then, to fix those bugs, I utilized the console log to help me fix the bugs. I'm curious if there's another way to test the game by writing tests without playing it a bunch of times. 
   - What is the role of back-end?
  
- I believe for this project, I was working with front-end and I made a fully functional game. Thus, what is the role of back-end and how do they contribute to web development?
+    I believe for this project, I was working with front-end and I made a fully functional game. Thus, what is the role of back-end and how do they contribute to web development?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
