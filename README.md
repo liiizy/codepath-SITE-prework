@@ -4,7 +4,7 @@
 
 Submitted by: **Aliza Wong**
 
-Time spent: **15** hours spent in total
+Time spent: **17** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/gratis-mighty-planet
 
