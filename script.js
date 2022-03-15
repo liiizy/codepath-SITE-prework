@@ -152,10 +152,8 @@ function countdown() {
   for(let i=1;i<=numButtons;i++) {
     document.getElementById("button"+i).removeAttribute("disabled");
   }
-  console.log("monkey" + timer);
   timeleft = 5;
   if (timer) {
-    console.log("destroyed");
     clearInterval(timer);
   }
   timer = setInterval(function(){
