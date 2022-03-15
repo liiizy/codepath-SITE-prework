@@ -48,7 +48,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 > User plays the game correctly and wins:
 
-![](https://user-images.githubusercontent.com/97565167/156295694-474ba3fa-bf5c-4dfd-80d8-1e34cf3afb25.gif)
+![](https://user-images.githubusercontent.com/97565167/158479299-2e244148-e6f9-4dbe-8842-50b20f6f7f9f.gif)
 
 ![](https://user-images.githubusercontent.com/97565167/156295844-5969ea3a-7b34-4ca9-a8e8-cedb621e8dad.gif)
 
