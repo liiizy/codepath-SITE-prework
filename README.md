@@ -94,7 +94,7 @@ itself, but these challenges were amongst the biggest challenges I faced while c
 for the user. I would also add sound effects whenever the user makes a mistake, whenever the user wins or loses, and a ticking sound for the last 3 seconds of the timer. I would also find a way to display
 the text in a clearer manner since the text sometimes gets obscured by the background. As far as the actual game implementation, I would add another difficulty level where each square would be covered by a
 brown grocery bag, so there would only be one color, making it harder to remember. Another way I would improve this project is to research ways to fix an issue where if you drag the buttons, the image on the buttons
-would stay instead of disappear. I think that problem isn't due to my code, so I would have to find ways to rememdy that since accidental drags can happen. 
+would stay instead of disappear. I think that problem isn't due to my code, so I would have to find ways to remedy that since accidental drags can happen. 
 
 
 
