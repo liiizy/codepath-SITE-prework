@@ -42,25 +42,17 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-> Updated game layout/theme:
-
-![](https://user-images.githubusercontent.com/97565167/158353719-175a8bfb-fdf8-44c6-af4a-5ca8567ef05d.png)
-
 > User plays the game correctly and wins:
 
 ![](https://user-images.githubusercontent.com/97565167/158479299-2e244148-e6f9-4dbe-8842-50b20f6f7f9f.gif)
 
-![](https://user-images.githubusercontent.com/97565167/156295844-5969ea3a-7b34-4ca9-a8e8-cedb621e8dad.gif)
-
-![](https://user-images.githubusercontent.com/97565167/156295876-56cf774b-348a-4bbe-a623-380c1553156e.gif)
+![](https://user-images.githubusercontent.com/97565167/158479664-ef0eeb7f-1d41-49dd-aca0-4949da02cd9b.gif)
 
 > User does not win, user runs out of time, user starts/stops game:
 
+![](https://user-images.githubusercontent.com/97565167/158480046-5e7ef5f0-9d65-4561-9ac3-a27562e99b84.gif)
 
-![](https://user-images.githubusercontent.com/97565167/156295903-d27a0696-1531-480e-a5a1-33a8fc9cb07c.gif)
-
-![](https://user-images.githubusercontent.com/97565167/156295920-62aea3fd-d469-44d5-84a5-e6c6a60b556f.gif)
-
+![](https://user-images.githubusercontent.com/97565167/158480211-be1c51ec-b538-495a-8c9f-991c228309f6.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
