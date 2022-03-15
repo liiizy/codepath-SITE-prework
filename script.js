@@ -35,6 +35,7 @@ function stopGame() {
   gamePlaying = false;
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");
+  console.log(timer);
   clearInterval(timer);
   for(let i=1;i<=numButtons;i++) {
     document.getElementById("audio"+i).playbackRate = 1;
@@ -54,7 +55,6 @@ function playTone(btn,len){
   },len)
 }
 function startTone(btn){
-  console.log("start"+btn);
   let audio = document.getElementById("audio"+btn);
   if(!audio.ended) {
     audio.pause();
@@ -67,7 +67,6 @@ function startTone(btn){
   
 }
 function stopTone(btn){
-  console.log("stop"+btn);
   tonePlaying = false
   document.getElementById("img"+btn).classList.add("hidden");
 }
@@ -92,12 +91,13 @@ function playClueSequence(speed) {
   for(let i=1;i<=numButtons;i++) {
     document.getElementById("button"+i).setAttribute("disabled", "true");
   }
-  clearInterval(timer);
+  if(timer) {
+    clearInterval(timer);
+  }
   document.getElementById("countdown").innerHTML = "Timer: " + 5;
   guessCounter = 0;
   let delay = nextClueWaitTime; //set delay to initial wait time
   for(let i=0;i<=progress;i++){ // for each clue that is revealed so far
-    console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
     delay += clueHoldTime; 
     delay += cluePauseTime;
@@ -118,7 +118,7 @@ function winGame(){
 }
 
 function guess(btn){
-  console.log("user guessed: " + btn);
+  //console.log("user guessed: " + btn);
   if(!gamePlaying){
     return;
   }
@@ -152,17 +152,27 @@ function countdown() {
   for(let i=1;i<=numButtons;i++) {
     document.getElementById("button"+i).removeAttribute("disabled");
   }
+  console.log("monkey" + timer);
   timeleft = 5;
+  if (timer) {
+    console.log("destroyed");
+    clearInterval(timer);
+  }
   timer = setInterval(function(){
-    if(timeleft <= 0){
+    if(!gamePlaying){
+      clearInterval(timer);
+    }
+    else {
+      if(timeleft <= 0){
       clearInterval(timer);
       document.getElementById("countdown").innerHTML = "Timer: 0";
       stopGame();
       setTimeout(alert, 1, "Time's up. You lost.");
-    } 
-    else {
-      document.getElementById("countdown").innerHTML = "Timer: " + timeleft;
+      } 
+      else {
+        document.getElementById("countdown").innerHTML = "Timer: " + timeleft;
+      }
+      timeleft -= 1;
     }
-    timeleft -= 1;
   }, 1000);
 }
