@@ -41,6 +41,12 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+
+> Updated game layout/theme:
+
+![](<img width="1440" alt="updated" src="https://user-images.githubusercontent.com/97565167/158353719-175a8bfb-fdf8-44c6-af4a-5ca8567ef05d.png">
+)
+
 > User plays the game correctly and wins:
 
 ![](https://user-images.githubusercontent.com/97565167/156295694-474ba3fa-bf5c-4dfd-80d8-1e34cf3afb25.gif)
