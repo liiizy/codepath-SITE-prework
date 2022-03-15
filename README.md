@@ -98,9 +98,11 @@ itself, but these challenges were amongst the biggest challenges I faced while c
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-  - To improve this project, I would research ways to make the game look nicer. For example, I would change the text to look more appealing, perhaps add a video game-type font, if possible. I've already changed the font for the 
-heading and the body text, but I am still unsatisfied with how it looks. I also wanted to change the number of lives button to display 3 hearts and the timer to show an actual clock to make the game experience more enjoyable
-for the user. I would also add sound effects whenever the user makes a mistake, whenever the user wins or loses, and a ticking sound for the last 3 seconds of the timer. 
+  - To improve this project, I wanted to change the number of lives button to display 3 hearts and the timer to show an actual clock to make the game experience more enjoyable
+for the user. I would also add sound effects whenever the user makes a mistake, whenever the user wins or loses, and a ticking sound for the last 3 seconds of the timer. I would also find a way to display
+the text in a clearer manner since the text sometimes gets obscured by the background. As far as the actual game implementation, I would add another difficulty level where each square would be covered by a
+brown grocery bag, so there would only be one color, making it harder to remember. Another way I would improve this project is to research ways to fix an issue where if you drag the buttons, the image on the buttons
+would stay instead of disappear. I think that problem isn't due to my code, so I would have to find ways to rememdy that since accidental drags can happen. 
 
 
 
