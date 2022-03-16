@@ -39,6 +39,7 @@ The following **additional** features are implemented:
 - [X] Created buttons to display lives left and a timer
 - [X] Audio repeats even when the same button is pressed consecutively
 - [X] Implemented a theme with all my favorite foods
+- [X] Deactivated the game buttons while the clue sequence is playing
 
 ## Video Walkthrough (GIF)
 
